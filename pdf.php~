@@ -6,7 +6,7 @@ $pdf=new FPDF();
 $pdf->AddPage();
 
 $pdf->SetFont("Arial","B","20");
-$pdf->Cell(0,10,"Hi",1,1,C);
+$pdf->Cell(0,10,"Hi {$first_name}",1,1,C);
 
 
 $pdf->Output();
